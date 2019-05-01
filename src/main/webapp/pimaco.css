@@ -1,0 +1,104 @@
+@media print{
+    @page {
+        size: 210mm 297mm; 
+        margin: 13.5mm 8mm 8mm 13.5mm;
+    }
+
+
+    .card{
+        width: 26mm!important;
+        height: 15mm!important;
+        border: 0px!important;
+        padding: 3mm!important;
+        margin-left: 2mm!important;
+    }
+    
+    .first{
+        margin-left: 0mm!important;
+    }
+
+    .print{
+        display: inline-block;
+    }
+
+    .no-print{
+        display: none;
+    }
+}
+
+/* Card do Bootstrap 4 */
+.card {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: .25rem;
+}
+
+/* Card-body do bootstrap 4 */
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+}
+
+.card-text{
+    width: 65%;
+    position: absolute;
+    bottom: 2px;
+    word-break: break-all;
+}
+
+.card-body{
+    padding: 0.1em;
+}
+
+#etiquetas{
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-flow: row;
+    flex-wrap: wrap;
+    line-height: 1.0;
+    font-family: monospace;
+}
+
+#imgDataMatrix{
+    position: absolute;
+    right: 1px;
+    bottom: 1px;
+    border: 2px solid white;
+
+}
+
+img{
+    /*Tamanho do DataMatrix*/
+    height: 0.65cm;
+    width: 0.65cm;
+}
+
+.card{
+    padding: 2px; /* adjust as needed */
+
+    width: 130px;
+    height: 70px;
+
+    overflow: hidden;
+    border: 0.5px solid #ccc;
+    border-radius: 0px;
+
+}
+
+
+#principioAtivoEtiqueta{
+    word-break: break-all;
+}
